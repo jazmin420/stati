@@ -1,0 +1,32 @@
+.booking-div{
+  border: 1px solid rgb(159, 157, 157);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+
+.form-div {
+  padding: 40px 0;
+}
+
+h4 {
+  color: red;
+  font-family: 'Sofia', serif;
+  font-size: 50px;
+  text-align: justify;
+  text-align: center;
+}
+h4>span {
+  display: block;
+  color: rgb(16, 15, 15);
+}
+.button {
+  background-color: red;
+}
+.booking-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+}
