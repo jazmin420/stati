@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Form.css'
+import booking from './src/assets/booking-01.jpg'
 
 function BasicExample() {
   return (
@@ -32,7 +33,7 @@ function BasicExample() {
         </Form>
       </div>
       <div>
-        <img className='booking-img' src="./src/assets/booking-01.jpg" alt="" />
+        <img className='booking-img' src={booking} alt="" />
       </div>
     </div>
     </>

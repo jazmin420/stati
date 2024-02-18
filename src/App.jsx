@@ -5,7 +5,9 @@ import  Form  from './component/Form'
 import Footer from './component/Footer'
 import './App.css'
 import ourStory from './assets/our-story-01.jpg'
-
+import introOne from './assets/intro-01.jpg'
+import introTwo from './assets/intro-02.jpg'
+import introThree from './assets/intro-04.jpg'
 function App() {
   
 
@@ -32,7 +34,7 @@ function App() {
 
      <div className='d-flex justify-content-evenly align-items-center mt-5 flex-wrap'>
      <Card style={{ width: '18rem'}}>
-      <Card.Img variant="top" src="/public/intro-01.jpg" />
+      <Card.Img variant="top" src={introOne} />
       <Card.Body>
         <Card.Title>ROMANTIC RESTAURANT</Card.Title>
         <Card.Text>
@@ -43,7 +45,7 @@ function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./src/assets/intro-02.jpg" />
+      <Card.Img variant="top" src={introTwo} />
       <Card.Body>
         <Card.Title>DELICIOUS FOOD</Card.Title>
         <Card.Text>
@@ -54,7 +56,7 @@ function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./src/assets/intro-04.jpg" />
+      <Card.Img variant="top" src={introThree} />
       <Card.Body>
         <Card.Title>RED WINES YOU LOVE</Card.Title>
         <Card.Text>
