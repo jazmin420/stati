@@ -32,7 +32,7 @@ function BasicExample() {
         </Form>
       </div>
       <div>
-        <img className='booking-img' src="src/assets/booking-01.jpg" alt="" />
+        <img className='booking-img' src="./src/assets/booking-01.jpg" alt="" />
       </div>
     </div>
     </>

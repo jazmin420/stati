@@ -41,7 +41,7 @@ h3>span {
 }
 
 .discover {
-  background: url("src/assets/bg-intro-01.jpg"),rgba(0, 0, 0, 0.653);
+  background: url("./assets/bg-intro-01.jpg"),rgba(0, 0, 0, 0.653);
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: darken;

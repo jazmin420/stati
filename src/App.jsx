@@ -20,7 +20,7 @@ function App() {
         <a href="">Our story</a>
         </div>
         <div>
-          <img  src="src/assets/our-story-01.jpg" alt="" />
+          <img  src="./src/assets/our-story-01.jpg" alt="" />
 
       </div>
      </div>
@@ -31,7 +31,7 @@ function App() {
 
      <div className='d-flex justify-content-evenly align-items-center mt-5 flex-wrap'>
      <Card style={{ width: '18rem'}}>
-      <Card.Img variant="top" src="src/assets/intro-01.jpg" />
+      <Card.Img variant="top" src="./src/assets/intro-01.jpg" />
       <Card.Body>
         <Card.Title>ROMANTIC RESTAURANT</Card.Title>
         <Card.Text>
@@ -42,7 +42,7 @@ function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="src/assets/intro-02.jpg" />
+      <Card.Img variant="top" src="./src/assets/intro-02.jpg" />
       <Card.Body>
         <Card.Title>DELICIOUS FOOD</Card.Title>
         <Card.Text>
@@ -53,7 +53,7 @@ function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="src/assets/intro-04.jpg" />
+      <Card.Img variant="top" src="./src/assets/intro-04.jpg" />
       <Card.Body>
         <Card.Title>RED WINES YOU LOVE</Card.Title>
         <Card.Text>
