@@ -4,6 +4,7 @@ import  Navb  from './component/Navb'
 import  Form  from './component/Form'
 import Footer from './component/Footer'
 import './App.css'
+import ourStory from './assets/our-story-01.jpg'
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
         <a href="">Our story</a>
         </div>
         <div>
-          <img  src="/src/assets/our-story-01.jpg" alt="" />
+          <img  src={ourStory} alt="" />
 
       </div>
      </div>
