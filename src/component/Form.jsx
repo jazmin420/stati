@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Form.css'
-import booking from './src/assets/booking-01.jpg'
+import booking from '/src/assets/booking-01.jpg'
 
 function BasicExample() {
   return (
